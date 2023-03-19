@@ -1,0 +1,3 @@
+# アプリ作成コマンド
+# databaseをposgre、cssにtailwind
+docker compose run --rm web rails new . -f -d postgresql --css tailwind 
